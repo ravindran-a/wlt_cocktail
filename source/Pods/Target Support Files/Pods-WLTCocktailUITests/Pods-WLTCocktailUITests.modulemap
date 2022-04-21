@@ -1,0 +1,6 @@
+framework module Pods_WLTCocktailUITests {
+  umbrella header "Pods-WLTCocktailUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

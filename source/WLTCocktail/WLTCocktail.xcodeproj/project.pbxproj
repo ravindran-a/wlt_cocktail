@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B048DCDF3D046E5D1FC3D99 /* Pods_WLTCocktailTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779FA91413D0F76329AF75F1 /* Pods_WLTCocktailTests.framework */; };
+		B2F89EC2093E9C809C97EC17 /* Pods_WLTCocktail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B556205B364CBED0A2C9E7 /* Pods_WLTCocktail.framework */; };
+		B8D5197A4599F79B58A75CF6 /* Pods_WLTCocktailUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AAA090C583F777A7E23B97E /* Pods_WLTCocktailUITests.framework */; };
+		DE75E21D2811706D00B538AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE75E21C2811706D00B538AB /* AppDelegate.swift */; };
+		DE75E21F2811706D00B538AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE75E21E2811706D00B538AB /* SceneDelegate.swift */; };
+		DE75E2212811706D00B538AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE75E2202811706D00B538AB /* ViewController.swift */; };
+		DE75E2242811706D00B538AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE75E2222811706D00B538AB /* Main.storyboard */; };
+		DE75E2262811706F00B538AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE75E2252811706F00B538AB /* Assets.xcassets */; };
+		DE75E2292811706F00B538AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE75E2272811706F00B538AB /* LaunchScreen.storyboard */; };
+		DE75E2342811706F00B538AB /* WLTCocktailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE75E2332811706F00B538AB /* WLTCocktailTests.swift */; };
+		DE75E23E2811706F00B538AB /* WLTCocktailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE75E23D2811706F00B538AB /* WLTCocktailUITests.swift */; };
+		DE75E2402811706F00B538AB /* WLTCocktailUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE75E23F2811706F00B538AB /* WLTCocktailUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE75E2302811706F00B538AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE75E2112811706D00B538AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE75E2182811706D00B538AB;
+			remoteInfo = WLTCocktail;
+		};
+		DE75E23A2811706F00B538AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE75E2112811706D00B538AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE75E2182811706D00B538AB;
+			remoteInfo = WLTCocktail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		101424419053201C189BED40 /* Pods-WLTCocktail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLTCocktail.release.xcconfig"; path = "Target Support Files/Pods-WLTCocktail/Pods-WLTCocktail.release.xcconfig"; sourceTree = "<group>"; };
+		1723DCEC0C800C3F5FB145B3 /* Pods-WLTCocktailUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLTCocktailUITests.release.xcconfig"; path = "Target Support Files/Pods-WLTCocktailUITests/Pods-WLTCocktailUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4ED9E1D51B66DF77CAA0AAC1 /* Pods-WLTCocktailUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLTCocktailUITests.debug.xcconfig"; path = "Target Support Files/Pods-WLTCocktailUITests/Pods-WLTCocktailUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AAA090C583F777A7E23B97E /* Pods_WLTCocktailUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLTCocktailUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B556205B364CBED0A2C9E7 /* Pods_WLTCocktail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLTCocktail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A69BFC4138F456131557F5C /* Pods-WLTCocktailTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLTCocktailTests.debug.xcconfig"; path = "Target Support Files/Pods-WLTCocktailTests/Pods-WLTCocktailTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F687CEA1BE2DB7F160E23A3 /* Pods-WLTCocktailTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLTCocktailTests.release.xcconfig"; path = "Target Support Files/Pods-WLTCocktailTests/Pods-WLTCocktailTests.release.xcconfig"; sourceTree = "<group>"; };
+		779FA91413D0F76329AF75F1 /* Pods_WLTCocktailTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLTCocktailTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7826A003DA753F1EC33878 /* Pods-WLTCocktail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLTCocktail.debug.xcconfig"; path = "Target Support Files/Pods-WLTCocktail/Pods-WLTCocktail.debug.xcconfig"; sourceTree = "<group>"; };
+		DE75E2192811706D00B538AB /* WLTCocktail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLTCocktail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE75E21C2811706D00B538AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE75E21E2811706D00B538AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE75E2202811706D00B538AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE75E2232811706D00B538AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE75E2252811706F00B538AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE75E2282811706F00B538AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE75E22A2811706F00B538AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE75E22F2811706F00B538AB /* WLTCocktailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLTCocktailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE75E2332811706F00B538AB /* WLTCocktailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLTCocktailTests.swift; sourceTree = "<group>"; };
+		DE75E2392811706F00B538AB /* WLTCocktailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLTCocktailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE75E23D2811706F00B538AB /* WLTCocktailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLTCocktailUITests.swift; sourceTree = "<group>"; };
+		DE75E23F2811706F00B538AB /* WLTCocktailUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLTCocktailUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE75E2162811706D00B538AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F89EC2093E9C809C97EC17 /* Pods_WLTCocktail.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE75E22C2811706F00B538AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B048DCDF3D046E5D1FC3D99 /* Pods_WLTCocktailTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE75E2362811706F00B538AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D5197A4599F79B58A75CF6 /* Pods_WLTCocktailUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5029338EC163408492F2B55B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63B556205B364CBED0A2C9E7 /* Pods_WLTCocktail.framework */,
+				779FA91413D0F76329AF75F1 /* Pods_WLTCocktailTests.framework */,
+				5AAA090C583F777A7E23B97E /* Pods_WLTCocktailUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		852AECBAE5D1355700429DEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE7826A003DA753F1EC33878 /* Pods-WLTCocktail.debug.xcconfig */,
+				101424419053201C189BED40 /* Pods-WLTCocktail.release.xcconfig */,
+				6A69BFC4138F456131557F5C /* Pods-WLTCocktailTests.debug.xcconfig */,
+				6F687CEA1BE2DB7F160E23A3 /* Pods-WLTCocktailTests.release.xcconfig */,
+				4ED9E1D51B66DF77CAA0AAC1 /* Pods-WLTCocktailUITests.debug.xcconfig */,
+				1723DCEC0C800C3F5FB145B3 /* Pods-WLTCocktailUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		DE75E2102811706D00B538AB = {
+			isa = PBXGroup;
+			children = (
+				DE75E21B2811706D00B538AB /* WLTCocktail */,
+				DE75E2322811706F00B538AB /* WLTCocktailTests */,
+				DE75E23C2811706F00B538AB /* WLTCocktailUITests */,
+				DE75E21A2811706D00B538AB /* Products */,
+				852AECBAE5D1355700429DEF /* Pods */,
+				5029338EC163408492F2B55B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE75E21A2811706D00B538AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE75E2192811706D00B538AB /* WLTCocktail.app */,
+				DE75E22F2811706F00B538AB /* WLTCocktailTests.xctest */,
+				DE75E2392811706F00B538AB /* WLTCocktailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE75E21B2811706D00B538AB /* WLTCocktail */ = {
+			isa = PBXGroup;
+			children = (
+				DE75E21C2811706D00B538AB /* AppDelegate.swift */,
+				DE75E21E2811706D00B538AB /* SceneDelegate.swift */,
+				DE75E2202811706D00B538AB /* ViewController.swift */,
+				DE75E2222811706D00B538AB /* Main.storyboard */,
+				DE75E2252811706F00B538AB /* Assets.xcassets */,
+				DE75E2272811706F00B538AB /* LaunchScreen.storyboard */,
+				DE75E22A2811706F00B538AB /* Info.plist */,
+			);
+			path = WLTCocktail;
+			sourceTree = "<group>";
+		};
+		DE75E2322811706F00B538AB /* WLTCocktailTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE75E2332811706F00B538AB /* WLTCocktailTests.swift */,
+			);
+			path = WLTCocktailTests;
+			sourceTree = "<group>";
+		};
+		DE75E23C2811706F00B538AB /* WLTCocktailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE75E23D2811706F00B538AB /* WLTCocktailUITests.swift */,
+				DE75E23F2811706F00B538AB /* WLTCocktailUITestsLaunchTests.swift */,
+			);
+			path = WLTCocktailUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE75E2182811706D00B538AB /* WLTCocktail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE75E2432811706F00B538AB /* Build configuration list for PBXNativeTarget "WLTCocktail" */;
+			buildPhases = (
+				8654313B7B8E2759E94219D1 /* [CP] Check Pods Manifest.lock */,
+				DE75E2152811706D00B538AB /* Sources */,
+				DE75E2162811706D00B538AB /* Frameworks */,
+				DE75E2172811706D00B538AB /* Resources */,
+				A90966C6163742A39A41B31C /* [CP] Embed Pods Frameworks */,
+				DE75E24C281170F900B538AB /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLTCocktail;
+			productName = WLTCocktail;
+			productReference = DE75E2192811706D00B538AB /* WLTCocktail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE75E22E2811706F00B538AB /* WLTCocktailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE75E2462811706F00B538AB /* Build configuration list for PBXNativeTarget "WLTCocktailTests" */;
+			buildPhases = (
+				E59A2552FC44E4600BA7E97A /* [CP] Check Pods Manifest.lock */,
+				DE75E22B2811706F00B538AB /* Sources */,
+				DE75E22C2811706F00B538AB /* Frameworks */,
+				DE75E22D2811706F00B538AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE75E2312811706F00B538AB /* PBXTargetDependency */,
+			);
+			name = WLTCocktailTests;
+			productName = WLTCocktailTests;
+			productReference = DE75E22F2811706F00B538AB /* WLTCocktailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE75E2382811706F00B538AB /* WLTCocktailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE75E2492811706F00B538AB /* Build configuration list for PBXNativeTarget "WLTCocktailUITests" */;
+			buildPhases = (
+				9CB5B6058F20FBB913BCA869 /* [CP] Check Pods Manifest.lock */,
+				DE75E2352811706F00B538AB /* Sources */,
+				DE75E2362811706F00B538AB /* Frameworks */,
+				DE75E2372811706F00B538AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE75E23B2811706F00B538AB /* PBXTargetDependency */,
+			);
+			name = WLTCocktailUITests;
+			productName = WLTCocktailUITests;
+			productReference = DE75E2392811706F00B538AB /* WLTCocktailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE75E2112811706D00B538AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DE75E2182811706D00B538AB = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					DE75E22E2811706F00B538AB = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = DE75E2182811706D00B538AB;
+					};
+					DE75E2382811706F00B538AB = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = DE75E2182811706D00B538AB;
+					};
+				};
+			};
+			buildConfigurationList = DE75E2142811706D00B538AB /* Build configuration list for PBXProject "WLTCocktail" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE75E2102811706D00B538AB;
+			productRefGroup = DE75E21A2811706D00B538AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE75E2182811706D00B538AB /* WLTCocktail */,
+				DE75E22E2811706F00B538AB /* WLTCocktailTests */,
+				DE75E2382811706F00B538AB /* WLTCocktailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE75E2172811706D00B538AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE75E2292811706F00B538AB /* LaunchScreen.storyboard in Resources */,
+				DE75E2262811706F00B538AB /* Assets.xcassets in Resources */,
+				DE75E2242811706D00B538AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE75E22D2811706F00B538AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE75E2372811706F00B538AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8654313B7B8E2759E94219D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WLTCocktail-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB5B6058F20FBB913BCA869 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WLTCocktailUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A90966C6163742A39A41B31C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WLTCocktail/Pods-WLTCocktail-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WLTCocktail/Pods-WLTCocktail-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WLTCocktail/Pods-WLTCocktail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE75E24C281170F900B538AB /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/SwiftLint/swiftlint --config ${PODS_ROOT}/../.swiftlint.yml\n";
+		};
+		E59A2552FC44E4600BA7E97A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WLTCocktailTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE75E2152811706D00B538AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE75E2212811706D00B538AB /* ViewController.swift in Sources */,
+				DE75E21D2811706D00B538AB /* AppDelegate.swift in Sources */,
+				DE75E21F2811706D00B538AB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE75E22B2811706F00B538AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE75E2342811706F00B538AB /* WLTCocktailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE75E2352811706F00B538AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE75E2402811706F00B538AB /* WLTCocktailUITestsLaunchTests.swift in Sources */,
+				DE75E23E2811706F00B538AB /* WLTCocktailUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE75E2312811706F00B538AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE75E2182811706D00B538AB /* WLTCocktail */;
+			targetProxy = DE75E2302811706F00B538AB /* PBXContainerItemProxy */;
+		};
+		DE75E23B2811706F00B538AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE75E2182811706D00B538AB /* WLTCocktail */;
+			targetProxy = DE75E23A2811706F00B538AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE75E2222811706D00B538AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE75E2232811706D00B538AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE75E2272811706F00B538AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE75E2282811706F00B538AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE75E2412811706F00B538AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE75E2422811706F00B538AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE75E2442811706F00B538AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE7826A003DA753F1EC33878 /* Pods-WLTCocktail.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8Q8U8SHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WLTCocktail/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.personal.WLTCocktail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DE75E2452811706F00B538AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101424419053201C189BED40 /* Pods-WLTCocktail.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8Q8U8SHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WLTCocktail/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.personal.WLTCocktail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DE75E2472811706F00B538AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A69BFC4138F456131557F5C /* Pods-WLTCocktailTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8Q8U8SHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.personal.WLTCocktailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WLTCocktail.app/WLTCocktail";
+			};
+			name = Debug;
+		};
+		DE75E2482811706F00B538AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F687CEA1BE2DB7F160E23A3 /* Pods-WLTCocktailTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8Q8U8SHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.personal.WLTCocktailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WLTCocktail.app/WLTCocktail";
+			};
+			name = Release;
+		};
+		DE75E24A2811706F00B538AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED9E1D51B66DF77CAA0AAC1 /* Pods-WLTCocktailUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8Q8U8SHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.personal.WLTCocktailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WLTCocktail;
+			};
+			name = Debug;
+		};
+		DE75E24B2811706F00B538AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1723DCEC0C800C3F5FB145B3 /* Pods-WLTCocktailUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8Q8U8SHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.personal.WLTCocktailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WLTCocktail;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE75E2142811706D00B538AB /* Build configuration list for PBXProject "WLTCocktail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE75E2412811706F00B538AB /* Debug */,
+				DE75E2422811706F00B538AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE75E2432811706F00B538AB /* Build configuration list for PBXNativeTarget "WLTCocktail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE75E2442811706F00B538AB /* Debug */,
+				DE75E2452811706F00B538AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE75E2462811706F00B538AB /* Build configuration list for PBXNativeTarget "WLTCocktailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE75E2472811706F00B538AB /* Debug */,
+				DE75E2482811706F00B538AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE75E2492811706F00B538AB /* Build configuration list for PBXNativeTarget "WLTCocktailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE75E24A2811706F00B538AB /* Debug */,
+				DE75E24B2811706F00B538AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE75E2112811706D00B538AB /* Project object */;
+}
